@@ -1,0 +1,30 @@
+body {
+  padding-bottom: 4000px;
+  background-color: lightpink;
+}
+.picture-container {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: 78px;
+  transition: all 0.5s ease;
+}
+.picture {
+  border-radius: 100px;
+  width: 200px;
+  left: 50%;
+}
+.main-website {
+  font-size: 70px;
+  color: white;
+  margin: 0;
+}
+.verschoben{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: 250px;
+  transition: all 0.5s ease;
+}
