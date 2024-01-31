@@ -2,22 +2,30 @@ let logo;
 let main; 
 
 function openSidebar() {
-  if(document.querySelector('.picture-container')){
+  if(document.querySelector('.logo_hidden')){
     console.log('opened');
-    main = document.querySelector('.picture-container');
-    logo = document.querySelector('.logo_hidden');
-    logo.classList.add('logo_name');
-    logo.classList.remove('logo_hidden');
-    main.classList.add('verschoben');
-    main.classList.remove('picture-container'); 
+    main = document.querySelectorAll('.static');
+    logo = document.querySelectorAll('.logo_hidden');
+    main.forEach((item) =>{
+      item.classList.add('verschoben');
+      item.classList.remove('static'); 
+    });
+    logo.forEach((item) => {
+      item.classList.add('logo_name');
+      item.classList.remove('logo_hidden');
+    });
   }else{
     console.log('closed');
-    main = document.querySelector('.verschoben');
-    logo = document.querySelector('.logo_name');
-    logo.classList.add('logo_hidden');
-    logo.classList.remove('logo_name');
-    main.classList.add('picture-container');
-    main.classList.remove('verschoben'); 
+    main = document.querySelectorAll('.verschoben');
+    logo = document.querySelectorAll('.logo_name');
+    main.forEach((item) => {
+      item.classList.add('static');
+      item.classList.remove('verschoben'); 
+    });
+    logo.forEach((item) => {
+      item.classList.add('logo_hidden');
+      item.classList.remove('logo_name');
+    });
   }
 }
 
@@ -25,10 +33,10 @@ document.querySelector('.sidebar').innerHTML = `
 <div class="logo-details">
 <a href="#">
   <img onclick="
-    openSidebar();
-  " class="bx bx-menu sidebar-icons" id="btn" src="./images/sidebar/menu.png">
+    openSidebar()
+  " class="bx bx-menu sidebar-icon-hamburger" id="btn" src="./images/sidebar/menu.png">
 </a>
-<a href="./main.html" class="logo_hidden">Eric</a>
+<a href="./index.html" class="logo_hidden">Eric</a>
 </div>
 <ul class="nav-list">
 <li>
@@ -69,9 +77,9 @@ document.querySelector('.sidebar').innerHTML = `
 <li>
   <a href="./ehemalige-praktika.html">
     <img class="sidebar-icons" src="./images/sidebar/factory.png">
-    <span class="links_name">Ehemalige Praktika</span>
+    <span class="links_name">Praktische Erfahrungen</span>
   </a>
-  <span class="tooltip">Ehemalige Praktika</span>
+  <span class="tooltip">Praktische Erfahrungen</span>
 </li>
 <li>
   <a href="./kontaktdaten.html">
