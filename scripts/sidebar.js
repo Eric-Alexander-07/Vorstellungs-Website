@@ -89,4 +89,26 @@ document.querySelector('.sidebar').innerHTML = `
   <span class="tooltip">Kontaktdaten</span>
 </li>
 </ul>
+
+
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
+<div class="circle invisible"></div>
 `
