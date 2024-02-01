@@ -1,0 +1,24 @@
+.sport{
+  border: 3px orange solid;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sport2{
+  border: 3px green solid;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .sport{
+    grid-template-columns: 1fr;
+    transition: all 0.5s ease;
+  }
+}
+.sportImage{
+  border: 2px orange solid;
+  height: auto;
+  width: 200px;
+}

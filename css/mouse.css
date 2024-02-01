@@ -1,0 +1,55 @@
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+}
+.mouseEffect{
+  display: flex;
+  justify-content: center;
+  border: 3px orange solid;
+}
+.mouse-button{
+  margin-top: 20px;
+  width: 100px;
+}
+.mouse-Container{
+  align-items: center;
+  border: 2px green solids;
+}
+label{
+  border: 2px white solid;
+  width: 64px;
+  height: 33px;
+  margin-top: 10px;
+  display: block;
+  background-color: #000;
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.moving_circle{
+  position: absolute;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.moving_circle2{
+  transform: translateX(30px);
+  box-shadow: 0px 0px 40px 20px #eeb518;
+}
+.invisible{
+  visibility: hidden;
+}

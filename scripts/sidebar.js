@@ -41,49 +41,63 @@ document.querySelector('.sidebar').innerHTML = `
 <ul class="nav-list">
 <li>
   <a href="./weitere-dokumente.html">
-    <img class="sidebar-icons" src="./images/sidebar/document.png">
+    <img style="
+    height: 100%;
+  " class="sidebar-icons" src="./images/sidebar/document.png">
     <span class="links_name">Weitere Dokumente</span>
   </a>
   <span class="tooltip">Weitere Dokumente</span>
 </li>
 <li>
   <a href="./sport.html">
-    <img class="sidebar-icons" src="./images/sidebar/fitness.png">
+    <img style="
+    height: 100%;
+  " class="sidebar-icons" src="./images/sidebar/fitness.png">
     <span class="links_name">Sport</span>
   </a>
   <span class="tooltip">Sport</span>
 </li>
 <li>
   <a href="./musik.html">
-    <img class="sidebar-icons" src="./images/sidebar/music.png">
+    <img style="
+      height: 100%;
+    "class="sidebar-icons" src="./images/sidebar/music.png">
     <span class="links_name">Musik</span>
   </a>
   <span class="tooltip">Musik</span>
 </li>
 <li>
   <a href="./trading.html">
-    <img class="sidebar-icons" src="./images/sidebar/stocks.png">
+    <img style="
+    height: 100%;
+  " class="sidebar-icons" src="./images/sidebar/stocks.png">
     <span class="links_name">Trading</span>
   </a>
   <span class="tooltip">Trading</span>
 </li>
 <li>
   <a href="./programmieren.html">
-    <img class="sidebar-icons" src="./images/sidebar/terminal.png"></img>
+    <img style="
+    height: 100%;
+  " class="sidebar-icons" src="./images/sidebar/terminal.png"></img>
     <span class="links_name">Programmieren</span>
   </a>
   <span class="tooltip">Programmieren</span>
 </li>
 <li>
   <a href="./ehemalige-praktika.html">
-    <img class="sidebar-icons" src="./images/sidebar/factory.png">
+    <img style="
+    height: 100%;
+  " class="sidebar-icons" src="./images/sidebar/factory.png">
     <span class="links_name">Praktische Erfahrungen</span>
   </a>
   <span class="tooltip">Praktische Erfahrungen</span>
 </li>
 <li>
   <a href="./kontaktdaten.html">
-    <img class="sidebar-icons" src="./images/sidebar/qr-code.png">
+    <img style="
+    height: 100%;
+  " class="sidebar-icons" src="./images/sidebar/qr-code.png">
     <span class="links_name">Kontaktdaten</span>
   </a>
   <span class="tooltip">Kontaktdaten</span>
