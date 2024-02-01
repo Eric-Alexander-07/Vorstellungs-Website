@@ -1,6 +1,6 @@
 .sport{
   border: 3px orange solid;
-  height: 1000px;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -8,17 +8,72 @@
   border: 3px green solid;
   margin-left: 20px;
   margin-top: 20px;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
+}
+.sportImage{
+  height: auto;
+  width: 200px;
+  text-align: center;
+}
+.m{
+  width: 300px;
+}
+.innerSportImage{
+  width: 100%;
+  height:fit-content;
+  border: 2px white solid;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.column-left{
+  border: 2px red solid;
+}
+.column-right{
+  border: 2px blue solid;
+}
+.leichtathletik{
+  box-shadow: 0px 0px 40px 2px rgb(202, 24, 24);
+}
+.tanzen{
+  box-shadow: 0px 0px 40px 2px rgb(170, 101, 10);
+}
+.calisthenics{
+  box-shadow: 0px 0px 40px 2px rgb(63, 188, 247);
+}
+.herausforderungen{
+  box-shadow: 0px 0px 40px 2px white;
+}
+.matschlauf{
+  box-shadow: 0px 0px 40px 2px rgb(196, 207, 44);
+}
+.plank{
+  box-shadow: 0px 0px 40px 2px rgb(26, 197, 20); 
+}
+.p {
+  margin-left: 30px;
+}
+.moreImages{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.innerSportImage:hover {
+  cursor: pointer;
+  scale: 1.2;
+  transition: all 0.5s ease;
 }
 @media (max-width: 1200px) {
   .sport{
     grid-template-columns: 1fr;
     transition: all 0.5s ease;
   }
-}
-.sportImage{
-  border: 2px orange solid;
-  height: auto;
-  width: 200px;
+  .sportImage{
+    height: auto;
+    width: 330px;
+  }
+  .innerSportImage:hover {
+    scale: 1.1;
+  }
 }
