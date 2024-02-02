@@ -17,6 +17,11 @@
   height: 100%;
   width: 300px;
   margin-left: 50px;
+  transition: all 0.5s ease;
+}
+.musik img:hover{
+  scale: 1.2;
+  transition: all 0.5s ease;
 }
 .musikText{
   padding-left: 20px;
