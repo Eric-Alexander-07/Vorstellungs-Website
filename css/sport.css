@@ -1,11 +1,12 @@
+.text{
+  width: 60%;
+}
 .sport{
-  border: 3px orange solid;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .sport2{
-  border: 3px green solid;
   margin-left: 20px;
   margin-top: 20px;
   height: fit-content;
@@ -19,19 +20,14 @@
 }
 .m{
   width: 300px;
+  margin-left: 30px;
 }
 .innerSportImage{
   width: 100%;
-  height:fit-content;
+  height: fit-content;
   border: 2px white solid;
   border-radius: 10px;
   transition: all 0.5s ease;
-}
-.column-left{
-  border: 2px red solid;
-}
-.column-right{
-  border: 2px blue solid;
 }
 .leichtathletik{
   box-shadow: 0px 0px 40px 2px rgb(202, 24, 24);
@@ -46,13 +42,16 @@
   box-shadow: 0px 0px 40px 2px white;
 }
 .matschlauf{
-  box-shadow: 0px 0px 40px 2px rgb(196, 207, 44);
+  box-shadow: 0px 0px 40px 2px rgb(175, 175, 175); 
 }
 .plank{
-  box-shadow: 0px 0px 40px 2px rgb(26, 197, 20); 
+  box-shadow: 0px 0px 40px 2px rgb(175, 175, 175); 
 }
-.p {
-  margin-left: 30px;
+.halle{
+  box-shadow: 0px 0px 40px 2px rgb(175, 175, 175); 
+}
+.morePlank{
+  box-shadow: 0px 0px 40px 2px rgb(175, 175, 175); 
 }
 .moreImages{
   margin-top: 50px;
@@ -75,5 +74,10 @@
   }
   .innerSportImage:hover {
     scale: 1.1;
+  }
+  .moreImages{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

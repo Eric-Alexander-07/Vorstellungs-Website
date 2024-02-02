@@ -1,0 +1,25 @@
+.musik{
+  height: 500px;
+  margin-top: 40px;
+  padding-left: 40px;
+  display: flex;
+  overflow-y: hidden;
+  justify-content: center;
+  scroll-snap-type: x mandatory;
+}
+
+.musik .musikImage{
+  scroll-snap-align: start;
+  box-shadow: 0px 0px 20px 1px rgb(255, 255, 255);
+}
+.musik img{
+  object-fit: cover;
+  height: 100%;
+  width: 300px;
+  margin-left: 50px;
+}
+.musikText{
+  padding-left: 20px;
+  margin-top: 20px;
+  overflow: hidden
+}
