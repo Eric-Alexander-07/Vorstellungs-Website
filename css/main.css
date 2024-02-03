@@ -2,6 +2,7 @@ body {
   padding-bottom: 500px;
   background-color: lightpink;
   background-image: url(../images/repeated-square-dark.png);
+  overflow-x: hidden;
 }
 .picture {
   border-radius: 100px;

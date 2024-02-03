@@ -1,0 +1,48 @@
+.weitereDokumente{
+  height: fit-content;
+  display: flex;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+.dokumenteLinks{
+  width: 40%;
+  margin-right: 20px;
+}
+.dokumenteRechts{
+  width: 60%;
+}
+.dokument{
+  border: 2px white solid;
+  margin-top: 20px;
+  display: flex;
+  height: 400px;
+}
+.dokumentBild{
+  border: 3px rgb(102, 98, 98) solid;
+  width: 400px;
+}
+.dokumentText{
+  padding-left: 20px;
+  width: 100%;
+}
+.dokumentImage{
+  height: 100%;
+  width: auto;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.dokumentImage:hover{
+  scale: 1.1;
+  transition: all 0.5s ease;
+}
+@media (max-width: 1100px) {
+  .weitereDokumente{
+    display: grid;
+  }
+  .dokumenteRechts, .dokumenteLinks{
+    width: 100%;
+  }
+  .dokumenteRechts{
+    margin-top: 20px;
+  }
+}
