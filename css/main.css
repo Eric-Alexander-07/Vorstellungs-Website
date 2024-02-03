@@ -9,6 +9,18 @@ body {
   left: 50%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 2.15);
 }
+.hsg{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 0 20px
+}
+.hsgImage{
+  height: 100%;
+  width: auto;
+  border: 2px white solid;
+  box-shadow: 0px 0px 20px #f52f2f;
+}
 .main-website {
   font-size: 70px;
   color: white;

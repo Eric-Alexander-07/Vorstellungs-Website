@@ -1,0 +1,56 @@
+.praktisch{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+.pLeft, .pRight{
+  height: 100%;
+  width: 45%;
+}
+.pRight{
+  display: flex;
+}
+.eImage, .eText{
+  width: 50%;
+}
+.eImage{
+  height: 300px;
+  padding-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  min-width: 400px;
+  justify-content: center;
+}
+.eText{
+  padding-top: 20px;
+  height: fit-content;
+}
+.lantech{
+  height: auto;
+  width: 100%;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 40px 2px #ffff;
+}
+.lantech:hover{
+  scale: 1.1;
+  transition: all 0.5s ease;
+}
+@media (max-width: 1340px) {
+  .praktisch{
+    display: grid;
+    justify-content: center;
+  }
+  .pLeft, .pRight{
+    width: 100%;
+    display: grid;
+  }
+  .eImage, .eText{
+    width: 100%;
+  }
+  .lantech{
+    height: 100%;
+    width: auto;
+  }
+}

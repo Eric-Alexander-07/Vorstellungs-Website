@@ -1,0 +1,60 @@
+.kontaktdaten{
+  height: fit-content;
+  display: flex;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+.kontaktLeft{
+  width: 40%;
+}
+.kontaktRight{
+  margin-left: 20px;
+  width: 60%;
+}
+.kontaktContainer{
+  display: flex;
+  height: 80px;
+  margin-top: 10px;
+}
+.kontaktImage{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+.kontaktText{
+  width: 100%;
+}
+.kontaktPicture{
+  width: auto;
+  height: auto;
+  transition: all	0.5s ease;
+}
+.nr{
+  color: rgb(11, 182, 11);
+}
+.em{
+  color: rgb(50, 151, 247);
+}
+.in{
+  color: rgb(223, 111, 208);
+}
+.git{
+  color: rgb(235, 114, 2);
+}
+.kontaktPicture:hover{
+  scale: 1.1;
+  transition: all	0.5s ease;
+}
+.ig{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+@media (max-width: 840px) {
+  .kontaktdaten{
+    display: grid;
+  }
+  .kontaktRight{
+    margin-top: 20px;
+  }
+}
