@@ -10,6 +10,7 @@
 }
 .dokumenteRechts{
   width: 60%;
+  margin-right: 40px;
 }
 .dokument{
   border: 2px white solid;
