@@ -1,34 +1,33 @@
+body{
+  overflow-x: hidden;
+}
 .programmieren{
-  border: 6px orange solid;
   height: auto;
   display: flex;
   justify-content: space-around;
-  overflow: hidden;
   padding-left: 40px;
   margin-right: 40px;
   padding-top: 40px;
+  overflow: hidden;
 }
 .right, .left{
-  border: 5px green solid;
   margin-left: 20px;
   width: 50%;
   display: grid;
   height: auto;
 }
 .programmieren2{
-  border: 5px pink solid;
+  margin-top: 20px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   height: fit-content;
 }
 .text{
-  border: 5px orange solid;
   height: auto;
   width: 50%;
 }
 .programmierenContainerright, .programmierenContainerleft{
-  border: 5px aqua solid;
+
   height: fit-content;
   display: flex;
   justify-content: left;
@@ -40,15 +39,15 @@
   width: fit-content;
   max-width: 400px;
   height: auto;
-  min-width: 300px;
 }
 .programmierenImage{
   width: auto;
 }
 .innerText{
-  border: 5px blue solid;
-  min-width: 200px;
   width: 50%;
+}
+.this{
+  margin-left: 20px;
 }
 .infoContainer{
   display: grid;
@@ -92,6 +91,6 @@
     transition: all 0.5s ease;
   }
   .left, .right{
-    width: 100%;
+    width: 98%;
   }
 }
