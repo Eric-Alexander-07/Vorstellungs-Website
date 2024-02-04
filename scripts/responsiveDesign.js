@@ -3,7 +3,10 @@ let height = screen.height;
 if(width/height <= 0.9) {
   let sidebar = document.querySelectorAll('.sidebar');
   let static = document.querySelectorAll('.static');
-  console.log('handy');
+  let tabelle = document.querySelectorAll('.grid-container');
+  tabelle.forEach((item) =>{
+    item.classList.add('handy-grid');
+  });
   sidebar.forEach((item) => {
     item.classList.add('handy-sidebar');
   });
