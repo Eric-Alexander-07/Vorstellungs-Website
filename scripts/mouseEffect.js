@@ -11,7 +11,6 @@ if(localStorage.getItem("button")){
 function activateMouse() {
     if(!document.querySelector('.moving_circle2')){
       setTimeout(function() {
-        console.log(true);
         localStorage.setItem("button", button.classList.add('moving_circle2'));
         circles.forEach((circle) => {
           circle.classList.remove('invisible');
@@ -20,7 +19,6 @@ function activateMouse() {
       return;
     } else {
       setTimeout(function() {
-        console.log(false);
         localStorage.removeItem("button");
         button.classList.remove('moving_circle2');  
         circles.forEach((circle) => {

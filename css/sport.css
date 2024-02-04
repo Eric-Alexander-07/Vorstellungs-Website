@@ -18,7 +18,7 @@
 }
 .innerSportImage{
   width: 100%;
-  height: fit-content;
+  height: auto;
   border: 2px white solid;
   border-radius: 10px;
   transition: all 0.5s ease;
