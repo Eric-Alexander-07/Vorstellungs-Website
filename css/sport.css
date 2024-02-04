@@ -1,13 +1,7 @@
 .text{
   width: 60%;
 }
-.sport{
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 .sport2{
-  margin-left: 20px;
   margin-top: 20px;
   height: fit-content;
   display: flex;

@@ -46,14 +46,13 @@ body {
   transition: all 0.5s ease;
 }
 .container{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 600px;
+  padding: 10px 10px 10px 10px;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   transition: all 0.5s ease;
 }
-.text1, .text2{
+.left, .right{
   width: 50%;
   margin-left: 20px;
 }
@@ -69,15 +68,15 @@ p{
 @media (max-width: 1200px) {
   .container{
     display: grid;
+    height: fit-content;
     transition: all 0.5s ease;
   }
-  .text1, .text2{
+  .left, .right{
     width: auto;
     height: fit-content;
     transition: all 0.5s ease;
   }
-  .text2{
-    margin-bottom: 100%;
+  .right{
     margin-top: 20px;
   }
 }
@@ -115,7 +114,7 @@ a {
   scale: 0.5;
 }
 .page-title{
-  color: #000000;
+  color: black;
   font-weight: bold;
   margin-left: 0;
   padding-top: 40px;
