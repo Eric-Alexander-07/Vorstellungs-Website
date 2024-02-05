@@ -42,7 +42,7 @@
 .pr img{
   object-fit: cover;
   height: 100%;
-  width: 300px;
+  width: 200px;
   margin-left: 50px;
   transition: all 0.5s ease;
 }
